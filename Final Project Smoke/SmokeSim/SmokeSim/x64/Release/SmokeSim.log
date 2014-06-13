@@ -1,0 +1,47 @@
+﻿Build started 4/23/2012 8:53:59 PM.
+     1>Project "C:\CIS 563\Final Project\SmokeSimStarterKit\SmokeSim\SmokeSim\SmokeSim.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\CIS 563\Final Project\SmokeSimStarterKit\SmokeSim\x64\Release\".
+       InitializeBuildStatus:
+         Touching "x64\Release\SmokeSim.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt bmp_manager.cpp SourceCode\basic_math.cpp SourceCode\blurfilter.cpp SourceCode\camera.cpp SourceCode\constants.cpp SourceCode\fps.cpp SourceCode\grid_data.cpp SourceCode\mac_grid.cpp SourceCode\main.cpp SourceCode\smoke_sim.cpp SourceCode\tinystr.cpp SourceCode\tinyxml.cpp SourceCode\tinyxmlerror.cpp SourceCode\tinyxmlparser.cpp SourceCode\vec.cpp SourceCode\world.cpp
+         bmp_manager.cpp
+     1>bmp_manager.cpp(13): error C2664: 'CreateFileA' : cannot convert parameter 1 from 'LPCWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         basic_math.cpp
+         blurfilter.cpp
+         camera.cpp
+     1>c:\cis 563\final project\smokesimstarterkit\smokesim\smokesim\sourcecode\matrix.h(858): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\cis 563\final project\smokesimstarterkit\smokesim\smokesim\sourcecode\matrix.h(849) : while compiling class template member function 'int math::matrix<T>::pivot(size_t)'
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\cis 563\final project\smokesimstarterkit\smokesim\smokesim\sourcecode\matrix.h(335) : while compiling class template member function 'math::matrix<T>::matrix(size_t,size_t)'
+                 with
+                 [
+                     T=double
+                 ]
+                 SourceCode\camera.cpp(304) : see reference to class template instantiation 'math::matrix<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+         constants.cpp
+         fps.cpp
+         grid_data.cpp
+         mac_grid.cpp
+         main.cpp
+         smoke_sim.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         vec.cpp
+         world.cpp
+     1>Done Building Project "C:\CIS 563\Final Project\SmokeSimStarterKit\SmokeSim\SmokeSim\SmokeSim.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.34

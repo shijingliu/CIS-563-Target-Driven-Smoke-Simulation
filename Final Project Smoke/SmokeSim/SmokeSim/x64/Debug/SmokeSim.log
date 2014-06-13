@@ -1,0 +1,57 @@
+﻿Build started 4/13/2012 5:53:58 PM.
+     1>Project "C:\Users\orochi2k\CIS563final\Final Smoke (fix 3)\Final Smoke\SmokeSimStarterKit\SmokeSim\SmokeSim\SmokeSim.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\SmokeSim.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         F:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\orochi2k\CIS563final\Final Smoke (fix 3)\Final Smoke\SmokeSimStarterKit\SmokeSim\x64\Debug\SmokeSim.exe" /NOLOGO /LIBPATH:"C:\Program Files\Autodesk\Maya2012\lib" /LIBPATH:"C:\Users\orochi2k\CIS563final\Final Smoke (fix 3)\Final Smoke\SmokeSimStarterKit\GLUT" opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Foundation.lib OpenMaya.lib OpenMayaUI.lib OpenMayaAnim.lib OpenMayaFX.lib OpenGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\SmokeSim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\orochi2k\CIS563final\Final Smoke (fix 3)\Final Smoke\SmokeSimStarterKit\SmokeSim\x64\Debug\SmokeSim.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\orochi2k\CIS563final\Final Smoke (fix 3)\Final Smoke\SmokeSimStarterKit\SmokeSim\x64\Debug\SmokeSim.lib" /MACHINE:X64 x64\Debug\bmp_manager.obj
+         x64\Debug\basic_math.obj
+         x64\Debug\blurfilter.obj
+         x64\Debug\camera.obj
+         x64\Debug\constants.obj
+         x64\Debug\fps.obj
+         x64\Debug\grid_data.obj
+         x64\Debug\mac_grid.obj
+         x64\Debug\main.obj
+         x64\Debug\smoke_sim.obj
+         x64\Debug\stb_image.obj
+         x64\Debug\stb_image_write.obj
+         x64\Debug\tinystr.obj
+         x64\Debug\tinyxml.obj
+         x64\Debug\tinyxmlerror.obj
+         x64\Debug\tinyxmlparser.obj
+         x64\Debug\vec.obj
+         x64\Debug\world.obj
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl onMouseMotionCb(int,int)" (?onMouseMotionCb@@YAXHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutAttachMenu referenced in function "void __cdecl onMouseCb(int,int,int,int)" (?onMouseCb@@YAXHHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutDetachMenu referenced in function "void __cdecl onMouseCb(int,int,int,int)" (?onMouseCb@@YAXHHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutSetMenu referenced in function "void __cdecl onMouseCb(int,int,int,int)" (?onMouseCb@@YAXHHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutGetModifiers referenced in function "void __cdecl onMouseCb(int,int,int,int)" (?onMouseCb@@YAXHHHH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutTimerFunc referenced in function "void __cdecl onTimerCb(int)" (?onTimerCb@@YAXH@Z)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutBitmapCharacter referenced in function "void __cdecl drawOverlay(void)" (?drawOverlay@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl onDrawCb(void)" (?onDrawCb@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutAddSubMenu referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutAddMenuEntry referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMotionFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+     1>main.obj : error LNK2019: unresolved external symbol __imp___glutCreateMenuWithExit referenced in function glutCreateMenu_ATEXIT_HACK
+     1>world.obj : error LNK2019: unresolved external symbol __imp_glutSolidCube referenced in function "public: virtual void __cdecl World::Draw(void)" (?Draw@World@@UEAAXXZ)
+     1>world.obj : error LNK2019: unresolved external symbol __imp_glutSolidSphere referenced in function "public: virtual void __cdecl World::Draw(void)" (?Draw@World@@UEAAXXZ)
+     1>C:\Users\orochi2k\CIS563final\Final Smoke (fix 3)\Final Smoke\SmokeSimStarterKit\SmokeSim\x64\Debug\SmokeSim.exe : fatal error LNK1120: 25 unresolved externals
+     1>Done Building Project "C:\Users\orochi2k\CIS563final\Final Smoke (fix 3)\Final Smoke\SmokeSimStarterKit\SmokeSim\SmokeSim\SmokeSim.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.34
